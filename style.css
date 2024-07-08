@@ -148,3 +148,38 @@ section{
     align-items: center;
     justify-content: center;
 }
+/* email style*/
+.email{
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.mail-text{
+    text-align: center;
+    padding-top: 121px;
+}
+.mail-text>h3{
+    margin-bottom: 16px;
+}
+.mail-text{
+    margin-bottom: 48px;
+}
+.inp-mail{
+    padding: 0 287px 121px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.inp-mail > input[type=text]{
+    width: 700px;
+    padding: 23px;
+    border: 0;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    outline: #FFF;
+}
