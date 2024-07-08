@@ -99,3 +99,16 @@ section{
     padding: 67px 75px 0;
     background-color:rgba(71, 125, 17, 0.15);
 }
+/* service styles */
+.service{
+    border-radius: 8px;
+    background-color: rgba(39, 39, 39, 0.05);
+    padding: 50px 140px;
+}
+.service-item{
+    text-align: center;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+}
