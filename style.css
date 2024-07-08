@@ -132,3 +132,19 @@ section{
     align-items: center;
     justify-content: space-around;
 }
+/* instagram styles */
+.insta-text{
+    text-align: center;
+}
+.insta-text>h3{
+    margin-bottom: 24px;
+}
+.insta-text>p{
+    margin-bottom: 50px;
+}
+.insta-imgs{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
