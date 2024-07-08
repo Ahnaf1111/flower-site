@@ -100,6 +100,7 @@ section{
     background-color:rgba(71, 125, 17, 0.15);
 }
 /* service styles */
+
 .service{
     border-radius: 8px;
     background-color: rgba(39, 39, 39, 0.05);
@@ -110,5 +111,24 @@ section{
 }
 .service-container{
     display: flex;
+    justify-content: space-around;
+}
+/* deals style  */
+.deals{
+    background-color: rgba(229, 84, 115, 0.05);
+    padding: 100px 50px;
+}
+.deals-text{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.deals-text>h3>span{
+    color: #E55473;
+}
+.deals-container{
+    display: flex;
+    align-items: center;
     justify-content: space-around;
 }
